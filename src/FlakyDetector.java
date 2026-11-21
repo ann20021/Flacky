@@ -41,6 +41,8 @@ public class FlakyDetector {
         return new ArrayList<>(candidates);
     }
 
+
+    
     public Map<String, Long> statusSummary(List<String> run) {
         if (run == null) {
             return Map.of();
